@@ -1,0 +1,5 @@
+﻿  lab11.cpp
+D:\University\oaip\2sem\lab11\lab11\lab11.cpp(53,35): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+D:\University\oaip\2sem\lab11\lab11\lab11.cpp(34,20): warning C4101: letter: неиспользованная локальная переменная
+D:\University\oaip\2sem\lab11\lab11\lab11.cpp(32,22): warning C4101: n: неиспользованная локальная переменная
+  lab11.vcxproj -> D:\University\oaip\2sem\lab11\x64\Debug\lab11.exe

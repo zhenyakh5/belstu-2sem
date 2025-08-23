@@ -1,0 +1,4 @@
+﻿  lab9.cpp
+D:\University\oaip\2sem\lab9\lab9\lab9.cpp(169,10): warning C4101: s: неиспользованная локальная переменная
+D:\University\oaip\2sem\lab9\lab9\lab9.cpp(169,21): warning C4101: c: неиспользованная локальная переменная
+  lab9.vcxproj -> D:\University\oaip\2sem\lab9\x64\Debug\lab9.exe

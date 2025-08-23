@@ -1,0 +1,5 @@
+﻿  lab_07.cpp
+D:\University\oaip\2sem\lab7\lab7\lab_07.cpp(54,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\University\oaip\2sem\lab7\lab7\lab_07.cpp(55,7): warning C4101: x: неиспользованная локальная переменная
+D:\University\oaip\2sem\lab7\lab7\lab_07.cpp(57,21): warning C4101: position: неиспользованная локальная переменная
+  lab7.vcxproj -> D:\University\oaip\2sem\lab7\x64\Debug\lab7.exe

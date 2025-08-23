@@ -1,0 +1,4 @@
+﻿  lab15.cpp
+D:\University\oaip\2sem\lab15\lab15\lab15.cpp(70,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\University\oaip\2sem\lab15\lab15\lab15.cpp(124,34): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  lab15.vcxproj -> D:\University\oaip\2sem\lab15\x64\Debug\lab15.exe

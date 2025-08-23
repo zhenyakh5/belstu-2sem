@@ -1,0 +1,4 @@
+﻿  zad1.cpp
+D:\University\oaip\2sem\lab5\zad1\zad1.cpp(196,13): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+D:\University\oaip\2sem\lab5\zad1\zad1.cpp(198,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  zad1.vcxproj -> D:\University\oaip\2sem\lab5\x64\Debug\zad1.exe
