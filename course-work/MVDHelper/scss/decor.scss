@@ -1,0 +1,134 @@
+@mixin TapeSettings {
+  position: absolute;
+  width: 160.833vh;
+  z-index: -2;
+  img {
+    width: 160.833vh;
+    z-index: -2;
+  }
+}
+
+@mixin ScreenSettings {
+  display: flex;
+  max-width: 77.037vh;
+  width: 100%;
+  height: 52.222vh;
+  padding: 0.093vh;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1.852vh;
+  background: rgba(0, 0, 0, 0.95);
+  position: absolute;
+  animation: borderOpacity 1s linear infinite alternate;
+  .appScreen {
+    width: 76.852vh;
+    height: 52.037vh;
+    border-radius: 1.759vh;
+  }
+}
+
+.particles {
+  width: 70.278vh;
+  height: 56.574vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -4;
+  img {
+    width: 70.278vh;
+    height: 56.574vh;
+  }
+}
+
+.firstEllipse {
+  max-width: 76.389vh;
+  width: 100%;
+  height: 59.63vh;
+  border-radius: 76.389vh;
+  opacity: 0.56;
+  background: #7169E1;
+  filter: blur(34.815vh);
+  position: absolute;
+  top: -21.852vh;
+  left: -27.963vh;
+  z-index: -3;
+}
+
+.secondEllipse {
+  max-width: 52.13vh;
+  width: 100%;
+  height: 52.5vh;
+  border-radius: 52.5vh;
+  opacity: 0.56;
+  background: #0053D4;
+  filter: blur(25.231vh);
+  position: absolute;
+  top: 13.704vh;
+  right: 37.963vh;
+  z-index: -3;
+}
+
+.thirdEllipse {
+  max-width: 51.667vh;
+  width: 100%;
+  height: 51.759vh;
+  border-radius: 51.759vh;
+  opacity: 0.56;
+  background: #0060FF;
+  filter: blur(25.231vh);
+  position: absolute;
+  top: 22.407vh;
+  right: 36.574vh;
+  z-index: -3;
+}
+
+.fourthEllipse {
+  max-width: 76.111vh;
+  width: 100%;
+  height: 55.648vh;
+  border-radius: 76.111vh;
+  opacity: 0.56;
+  background: #E91B24;
+  filter: blur(32.407vh);
+  position: absolute;
+  top: 61.574vh;
+  right: 0;
+  z-index: -3;
+}
+
+.policeTapeFirst {
+  rotate: 10deg;
+  top: 209px;
+  left: -24.259vh;
+  @include TapeSettings
+}
+
+.policeTapeSecond {
+  rotate: -7deg;
+  left: -13.148vh;
+  top: 84.259vh;
+  @include TapeSettings
+}
+
+.firstScreen {
+  transform: rotate(-7deg);
+  border: 0.093vh solid rgba(224, 69, 35, 0.8);
+  top: 17.593vh;
+  right: 18.889vh;
+  @include ScreenSettings
+}
+
+.secondScreen {
+  transform: rotate(7deg);
+  border: 0.093vh solid rgba(4, 29, 255, 0.88);
+  top: 30.556vh;
+  right: -10.648vh;
+  z-index: -1;
+  @include ScreenSettings
+}
+
+@keyframes borderOpacity {
+  to {
+    border-color: rgba(4, 29, 255, 0);
+  }
+}

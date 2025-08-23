@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="footer.xsl"?>
+
+<authorInfo>
+    <surname>Харченко </surname>
+    <name>Евгений </name>
+    <faculty>ФИТ</faculty>
+    <spec>ИСиТ (проф. ИС) </spec>
+    <course>1-го</course>
+    <group>1-ой</group>
+    <topic>Презентация онлайн-приложения «MVDHelper»</topic>
+</authorInfo>
